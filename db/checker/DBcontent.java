@@ -1,4 +1,4 @@
-package sql.checker;
+package db.checker;
 
 /**
  * Created with IntelliJ IDEA.

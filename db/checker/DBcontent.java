@@ -1,29 +1,28 @@
-package sql.checker;
+package db.checker;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Alexander Gostev
  * Date: 7/20/12
  * Time: 12:51 PM
- * To change this template use File | Settings | File Templates.
  */
 public class DBcontent {
-    private int first;
-    private String second;
-    private String third;
-    private String fourth;
+    private int firstRow;
+    private String secondRow;
+    private String thirdRow;
+    private String fourthRow;
 
     public DBcontent() {
     }
 
-    public DBcontent(int first, String second, String third, String fourth) {
-        this.first = first;
-        this.second = second;
-        this.third = third;
-        this.fourth = fourth;
+    public DBcontent(int firstRow, String secondRow, String thirdRow, String fourthRow) {
+        this.firstRow = firstRow;
+        this.secondRow = secondRow;
+        this.thirdRow = thirdRow;
+        this.fourthRow = fourthRow;
     }
 
     public String toString() {
-        return first + ", " + second + ", " + third + ", " + fourth;
+        return firstRow + ", " + secondRow + ", " + thirdRow + ", " + fourthRow;
     }
 }

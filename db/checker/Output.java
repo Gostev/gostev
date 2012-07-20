@@ -1,4 +1,4 @@
-package sql.checker;
+package db.checker;
 
 import java.io.*;
 import java.sql.ResultSet;
@@ -12,7 +12,6 @@ import java.text.SimpleDateFormat;
  * User: Alexander Gostev
  * Date: 7/20/12
  * Time: 2:29 PM
- * To change this template use File | Settings | File Templates.
  */
 public class Output {
 
@@ -40,7 +39,7 @@ public class Output {
 
         try {
             Writer output = null;
-            File file = new File("Users " + currentDate + ".csv");
+            File file = new File("Title " + currentDate + ".csv");
             output = new BufferedWriter(new FileWriter(file));
                 output.write("ID, UUID, FIRST NAME, LAST NAME \n");
 

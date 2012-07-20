@@ -8,7 +8,6 @@ import java.util.Properties;
  * User: Alexander Gostev
  * Date: 7/19/12
  * Time: 6:12 PM
- * To change this template use File | Settings | File Templates.
  */
 public class Database {
     private static final String DRIVER = "com.mysql.jdbc.Driver";

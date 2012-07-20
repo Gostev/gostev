@@ -12,7 +12,6 @@ import java.text.SimpleDateFormat;
  * User: Alexander Gostev
  * Date: 7/20/12
  * Time: 2:29 PM
- * To change this template use File | Settings | File Templates.
  */
 public class Output {
 

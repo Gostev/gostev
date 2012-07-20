@@ -1,4 +1,4 @@
-package sql.checker;
+package db.checker;
 
 import java.io.*;
 import java.sql.ResultSet;

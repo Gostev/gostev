@@ -5,7 +5,6 @@ package sql.checker;
  * User: Alexander Gostev
  * Date: 7/20/12
  * Time: 12:51 PM
- * To change this template use File | Settings | File Templates.
  */
 public class DBcontent {
     private int first;

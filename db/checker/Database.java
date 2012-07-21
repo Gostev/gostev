@@ -16,9 +16,9 @@ public class Database {
     private static final String PASSWORD = "root";
     private static final String QUERY = "SELECT * FROM yourTable.yourDB";
 
-    static Connection connection = null;
-    static Statement statement = null;
-    static ResultSet resultSet = null;
+    private static Connection connection = null;
+    private static Statement statement = null;
+    private static ResultSet resultSet = null;
 
     public static ResultSet execution() {
         try {
@@ -45,7 +45,6 @@ public class Database {
             statement = connection.createStatement();
             statement.executeQuery(QUERY);
             resultSet = statement.getResultSet();
-
         } catch (SQLException e) {
             e.printStackTrace();
         }

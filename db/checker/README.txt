@@ -2,7 +2,7 @@ DB Checker (Java)
 
 Hello!
 
-The purpose of this little program is to fetch data from SQL table to .csv file after regular time intervals.
+The purpose of this little program is to fetch data from SQL table to .csv file after regular time intervals. I had this task from my friend who is QC Engineer. He was in need of programm that will check DB state from time to time and save results to log file. So, he is happy right now when using this one.
 
 Structure:
 Database.java - Getting connection executing statement.

@@ -14,11 +14,13 @@ import java.text.SimpleDateFormat;
  * Time: 2:29 PM
  */
 public class Output {
-
+    
+    private static String TABLE_HEADER = "ID, UUID, FIRST NAME, LAST NAME \n"
     private static Collection<DBcontent> DBcontents = new LinkedList<DBcontent>();
+
+    
     public static Collection<DBcontent> getCollection() {
     ResultSet rs = null;
-
     try {
         rs = Database.execution();
 
@@ -41,11 +43,10 @@ public class Output {
             Writer output = null;
             File file = new File("Title " + currentDate + ".csv");
             output = new BufferedWriter(new FileWriter(file));
-                output.write("ID, UUID, FIRST NAME, LAST NAME \n");
+                output.write(TABLE_HEADER);
 
             for(DBcontent u: DBcontents) {
                 output.write(u.toString() + "\n");
-                output.write("");
             }
             output.close();
 

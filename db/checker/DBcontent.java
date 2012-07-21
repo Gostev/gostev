@@ -12,9 +12,6 @@ public class DBcontent {
     private String thirdRow;
     private String fourthRow;
 
-    public DBcontent() {
-    }
-
     public DBcontent(int firstRow, String secondRow, String thirdRow, String fourthRow) {
         this.firstRow = firstRow;
         this.secondRow = secondRow;

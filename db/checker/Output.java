@@ -17,8 +17,7 @@ public class Output {
     
     private static String TABLE_HEADER = "ID, UUID, FIRST NAME, LAST NAME \n"
     private static Collection<DBcontent> DBcontents = new LinkedList<DBcontent>();
-
-    
+   
     public static Collection<DBcontent> getCollection() {
     ResultSet rs = null;
     try {

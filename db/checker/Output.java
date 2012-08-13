@@ -57,9 +57,3 @@ public class Output {
         System.out.println("Your file has been written " + currentDate);
     }
 }
-
-
-
-
-
-

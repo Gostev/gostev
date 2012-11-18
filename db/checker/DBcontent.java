@@ -20,6 +20,6 @@ public class DBcontent {
     }
 
     public String toString() {
-        return firstRow + ", " + secondRow + ", " + thirdRow + ", " + fourthRow;
+        return firstRow +  ", " + secondRow + ", " + thirdRow + ", " + fourthRow;
     }
 }

@@ -13,4 +13,4 @@ RunMe.java - Executable class. You can declare delay time between connections he
 Would be happy if this can be usefull for you.
 All questions or propositions please send me to alex.gostev@yahoo.com
 
-Sincerely, Alex Gostev.
+Sincerely, Gostev.
